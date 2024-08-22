@@ -1,0 +1,313 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+      "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?"],
+      "responses": [
+        "I.m Hanuman, your bot assistant",
+        "I'm Hanuman, an Artificial Intelligent bot"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Bajrang bali.",
+        "I'm Bajrang bali!",
+        "Just call me as Bajrang bali"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account"
+      ],
+      "responses": [
+        "You can just easily create a new account from our web site",
+        "Just go to our web site and follow the guidelines to create a new account"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me the weather",
+        "How's the weather?",
+        "Is it raining?",
+        "Will it snow today?"
+      ],
+      "responses": [
+        "The weather is windy",
+        "It's cloudy today",
+        "You might need an umbrella today!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What's the current time?",
+        "Tell me the time please"
+      ],
+      "responses": [
+        "The current time is 2.30 pm",
+        "It's 2.30 pm now",
+        "Right now, it's 2.30 pm"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Tell me today's date",
+        "What's the date?",
+        "What day is it?"
+      ],
+      "responses": [
+        "Today's date is 20-8-2024",
+        "It's 20-8-2024 today",
+        "Today is Tuesday and date is 20-8-2024"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "I want to hear a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call fake spaghetti? An impasta!",
+        "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I need motivation",
+        "Inspire me",
+        "Give me a motivational quote",
+        "I'm feeling down, can you help?",
+        "I need some encouragement"
+      ],
+      "responses": [
+        "Believe in yourself! You can do it!",
+        "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "Keep going, you are closer to your goals than you think!"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the news today?",
+        "Tell me the latest news",
+        "Any updates in the news?",
+        "Give me today's headlines"
+      ],
+      "responses": [
+        "Here are today's top headlines: stock market,flood",
+        "The latest news includes us election and isreal-iran tension.",
+        "Here's what's happening in the world today: market grows,supreme court verdict."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What's the status of my order?",
+        "Can you check my order?",
+        "Where is my package?",
+        "Track my order",
+        "Order tracking"
+      ],
+      "responses": [
+        "Please provide your order number to check the status",
+        "Your order is currently packed",
+        "The package is release, and it should arrive by 3.00 pm"
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Tell me about your products",
+        "What products do you offer?",
+        "I want to know more about your services",
+        "Can you provide details on your offerings?"
+      ],
+      "responses": [
+        "We offer a range of products, including such as api, playground and other. Would you like more details?",
+        "Our services include software development,api. How can I assist you further?",
+        "Here are some of the products we offer: ml projects and many courses."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Where can I find you?",
+        "Tell me your location"
+      ],
+      "responses": [
+        "We are located at Pathankot,punjab",
+        "You can find us at Begowal Taragarh,Pathankot,punjab.",
+        "Our office is situated at Dinanagar."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "Tell me your operating hours",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 9.00 am to 5.00 pm, Mon-sat.",
+        "Our hours of operation are 9.00 am to 5.00 pm on mon-sat",
+        "We are available from 9.00 am to 5.00 pm, Mon to sat."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": [
+        "I need technical support",
+        "I'm facing an issue with your service",
+        "Can you help me with a technical issue?",
+        "My app isn't working",
+        "I have a technical problem"
+      ],
+      "responses": [
+        "Please describe the issue, and we'll assist you as soon as possible",
+        "We're here to help. Can you provide more details about the problem?",
+        "Our technical support team is here to assist you. What seems to be the issue?"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I want to give feedback",
+        "Can I provide feedback?",
+        "Where can I leave a review?",
+        "How do I give feedback?",
+        "I have some suggestions"
+      ],
+      "responses": [
+        "We appreciate your feedback! Please provide your comments or suggestions",
+        "You can leave a review or feedback at www.techsupport@gmail.com",
+        "Thank you for your input! Please share your thoughts with us"
+      ]
+    },
+    {
+      "tag": "set_reminder",
+      "patterns": [
+        "Set a reminder for me",
+        "Can you remind me about something?",
+        "I need a reminder",
+        "Remind me to attend class.",
+        "Set a reminder for 3.00 pm."
+      ],
+      "responses": [
+        "I've set a reminder for running at 7.00 pm.",
+        "Your reminder for practical task is set for 3.00 pm.",
+        "I'll remind you about training session at 5.30 pm"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I want to book an appointment",
+        "Schedule a meeting for me",
+        "Can you book a time slot?",
+        "I need to schedule an appointment",
+        "Set up a meeting at 4.00 pm"
+      ],
+      "responses": [
+        "Your appointment is booked for 4.00 pm.",
+        "I've scheduled your meeting for 4.00 pm.",
+        "Your appointment has been confirmed for 4.00 pm."
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "What are your return policies?",
+        "Do you offer free shipping?",
+        "How can I reset my password?",
+        "What payment methods do you accept?",
+        "Where can I find your terms and conditions?"
+      ],
+      "responses": [
+        "You can find information on our return policies here: www.hanuman.com",
+        "We offer free shipping on orders over 10000.",
+        "To reset your password, please follow this link: www.resetpassword.com.",
+        "We accept various payment methods including www.payment.com",
+        "Our terms and conditions are available here: www.terms_condition.com"
+      ]
+    }
+  ]
+}
